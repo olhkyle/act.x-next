@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage, Button, Input, loginSchema, type LoginSchema } from '@/components';
 import route from '@/constant/route';
-import { login } from '@/app/(auth)/auth/login/api/route';
+import { login } from '@/app/(auth)/auth/login/actions';
 
 export default function LoginForm() {
 	return (
